@@ -1,0 +1,71 @@
+/* Global styles */
+
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: #f7f7f7;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: bold;
+}
+
+.btn {
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+/* Header styles */
+
+header {
+  background-color: #343a40;
+  color: #fff;
+}
+
+/* Main styles */
+
+.card {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.card-header {
+  background-color: #f7f7f7;
+  font-weight: bold;
+}
+
+#dropzone {
+  border: 2px dashed #ccc;
+}
+
+#dropzone i {
+  color: #ccc;
+}
+
+#dropzone:hover {
+  background-color: #f7f7f7;
+  border-color: #6c757d;
+}
+
+#compressed-image {
+  max-height: 300px;
+}
+
+/* Footer styles */
+
+footer {
+  background-color: #6c757d;
+  color: #fff;
+}
+
+/* Media queries */
+
+@media (max-width: 767px) {
+  header .col-md-6 {
+    order: 2;
+    margin-top: 2rem;
+  }
+}
